@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	color: brown;
+	font-weight: bold;
+}
+
+header img {	
+	min-height: 80px;
+	padding-top: 50px;
+	padding-bottom: 50px;  	 
+}
+
+nav {
+	background-color: wheat;
+    padding: 10px;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.363);
+	margin-bottom: 90px;
+}
+
+nav > a {
+    color: brown;
+	margin: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    background-color: antiquewhite;    
+}
+
+body {
+	
+	background-color: antiquewhite;
+	text-align: center;
+}
+
+main img {	
+	margin: 80px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+    box-shadow: 2px 2px 10px black;    
+}
+
+footer {
+	margin-top: 100px;
+	padding: 10px;
+	background-color: wheat;	
+	text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.363);
+}
+
+/*Orcamento*/
+form {	
+	padding: 50px;	
+	text-align: left;
+	font-size: 18px;
+	background-color: wheat;		
+}
+
+#formulario, h1 {
+	text-align: left;
+}
+
+fieldset {
+	border: none;
+}
+
+input {
+	margin: 10px;
+	border: none;
+	height: 20px;
+}
+
+.nome {
+	margin-top: 50px;
+	width: 450px;
+}
+
+.qtdConvidados {
+	width: 50px;
+	margin-bottom: 20px;
+}
+
+.submit_reset {
+	margin-top: 50px;
+	width: 80px;
+	height: 40px;
+	border-radius: 20px;
+}
+
+#tabela, tr, td, th {
+	padding: 10px;
+	border: 2px solid brown;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+#tabela, td, th {
+	padding: 10px;
+}
+
+.proposta_comercial {
+	margin: auto;
+	border: 2px solid brown;
+	background-color: white;
+	font-size: 18px;
+	height: 600px;
+	width: 600px;
+	padding: 50px;
+}
+
+.proposta_comercial > h1 {
+	padding-bottom: 50px;
+}
+.contratado{
+	margin-bottom: 65px;
+}
+.contrato{
+	text-align: left;
+	font-size: x-small;
+	margin-top: 10px;
+}
